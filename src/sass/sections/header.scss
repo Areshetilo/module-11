@@ -2,9 +2,7 @@
   padding-top: 28px;
   padding-bottom: 230px;
   background-image: url(../img/main-bcg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  @include bcg();
   position: relative;
 
   &:before {
